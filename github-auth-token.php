@@ -32,7 +32,7 @@ class githubAuthToken
 * Author URI:      https://www.planetnine.tech/
 * Text Domain:     github-auth-token
 * Domain Path:     /languages
-* Version:          0.1.0
+* Version:          0.2.0
 *
 * @package github-auth-token
 */
