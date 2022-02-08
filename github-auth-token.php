@@ -39,7 +39,7 @@ class githubAuthToken
 
 function addGithubToken($args, $url)
 {
-    if ( defined(GITHUB_AUTH_TOKEN) && strpos($url, 'github')) {
+    if ( defined(GITHUB_AUTH_TOKEN) && strpos($url, 'github.com')) {
         $args['headers']['Authorization'] = GITHUB_AUTH_TOKEN;
     }
     return $args;
